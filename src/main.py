@@ -3,7 +3,7 @@ from geolocate import geolocate_ip
 from visualize import create_map
 
 def main():
-    log_file = "logs/Apache_2k.log"
+    log_file = "../logs/Apache_2k.log"
     db_path = "geoip2-db/GeoLite2-City.mmdb"
 
     ips = extract_ips_from_log(log_file)
