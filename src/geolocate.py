@@ -1,6 +1,6 @@
 import geoip2.database
 
-def geolocate_ip(ip, db_path="../geoip2-db/GeoLite2-ASN.mmdb"):
+def geolocate_ip(ip, db_path="../geoip2-db/GeoLite2-City.mmdb"):
     try:
         reader = geoip2.database.Reader(db_path)
         response = reader.city(ip)
