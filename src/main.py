@@ -4,7 +4,7 @@ from visualize import create_map
 
 def main():
     log_file = "../logs/Apache_2k.log"
-    db_path = "geoip2-db/GeoLite2-City.mmdb"
+    db_path = "geoip2-db/GeoLite2-ASN.mmdb"
 
     ips = extract_ips_from_log(log_file)
     locations = []
