@@ -1,6 +1,6 @@
-from src.parser import extract_ips_from_log
-from src.geolocate import geolocate_ip
-from src.visualize import create_map
+from parser import extract_ips_from_log
+from geolocate import geolocate_ip
+from visualize import create_map
 
 def main():
     log_file = "logs/sample.log"
