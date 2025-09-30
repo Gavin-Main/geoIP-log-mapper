@@ -62,15 +62,25 @@ Start output/ip_map.html
 
 # Project Structure
 geoIP-log-mapper/
+
 |---src/                   #Source Code
+
 |   |---parser.py          #Extracts IP addresses from log files
+
 |   |---visualize.py       #Creates interactive map with IP data
+
 |   |---geolocate.py       #Looks up geographic info for each IP address
+
 |   |---main.py            #Main script that runs all scripts
+
 |---images/                #Contains images showing output
+
 |---logs/                  #Contains Sample Apache Log with IP addresses
+
 |---geoip2-db/             #Contains GeoLite2-City.mmdb database file
+
 |---output/                #Stores generated interactive IP map
+
 |---README.md              #Project description
 
 # Security Context / Learning Outcomes
