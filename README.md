@@ -16,11 +16,15 @@ This project is a GeoIP Log Mapper, which takes IP addresses from server log fil
 - Supports Real Log Files – Compatible with real-world log formats, making it a useful foundation for more advanced threat analysis projects.
 
 # Tools & Technologies
-Python 3 – Core programming language used for all scripts.
-GeoIP2 – Python client library used to access the MaxMind GeoLite2 City database for IP geolocation.
-Folium – Python library used to generate interactive maps based on IP coordinates.
-Regex (re module) – Used to extract IP addresses from raw log files.
-MaxMind GeoLite2-City Database – Free geolocation database used to map IPs to locations.
+- Python 3 – Core programming language used for all scripts.
+
+- GeoIP2 – Python client library used to access the MaxMind GeoLite2 City database for IP geolocation.
+
+- Folium – Python library used to generate interactive maps based on IP coordinates.
+
+- Regex (re module) – Used to extract IP addresses from raw log files.
+
+- MaxMind GeoLite2-City Database – Free geolocation database used to map IPs to locations.
 
 # Setup & Installation
 Provide step-by-step instructions (Windows CMD). 
@@ -74,9 +78,13 @@ This project helped me understand how IP addresses found in log files can be use
 
 # Future Improvements
 - Add a Web Interface
+
 - Integrate Threat Intelligence API’s
+
 - Support more Log Formats (SSH, firewall, Windows Event logs)
+
 - Dockerize Project
+
 - Improve Error Handling
 
 # References
