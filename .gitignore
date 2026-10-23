@@ -1,0 +1,17 @@
+# GeoIP database
+geoip2-db/*.mmdb
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+venv/
+
+# IDE settings
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
