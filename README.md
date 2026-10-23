@@ -108,9 +108,11 @@ Addresses that cannot be geolocated are skipped, while successfully resolved add
 The synthetic dataset includes examples of normal web traffic, failed requests, and requests to potentially sensitive endpoints. All traffic is simulated for demonstration purposes.
 
 ![](images/OutputTerminal.png)
+
 Once cloned into the repository, you can run the program with python src/main.py. Then once mapping completes, run Start output/ip_map.html to open the map in your browser.
 
 ![](images/OutputMap.png)
+
 Map opens with 8 points plotted on the map from the sample access log. The tool bar in the top right can help you navigate the map and you can hover the cursor over the points to see more information.
 
 
