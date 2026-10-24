@@ -1,3 +1,17 @@
+"""
+Project: geoIP-log-mapper
+
+File: main.py
+
+Description: Coordinates the log parsing, IP geolocation,
+             and map generation processes to execute the
+             complete GeoIP Log Mapper workflow.
+
+Created by: Gavin Main
+
+Date Finalized: 10/23/26
+"""
+
 import geoip2.database
 from pathlib import Path
 from parser import extract_ips_from_log

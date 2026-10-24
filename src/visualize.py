@@ -1,3 +1,17 @@
+"""
+Project: geoIP-log-mapper
+
+File: visualize.py
+
+Description: Generates an interactive, self-contained HTML
+             map using Plotly to visualize the approximate
+             geographic locations of extracted IP addresses.
+
+Created by: Gavin Main
+
+Date Finalized: 10/23/26
+"""
+
 from pathlib import Path
 import plotly.graph_objects as go
 

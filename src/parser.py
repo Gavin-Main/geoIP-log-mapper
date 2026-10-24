@@ -1,3 +1,16 @@
+"""
+Project: geoIP-log-mapper
+
+File: parser.py
+
+Description: Extracts and validates unique IPv4 addresses
+             from Apache access log files.
+
+Created by: Gavin Main
+
+Date Finalized: 10/23/26
+"""
+
 import re
 import ipaddress
 from pathlib import Path

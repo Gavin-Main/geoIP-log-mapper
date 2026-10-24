@@ -1,3 +1,17 @@
+"""
+Project: geoIP-log-mapper
+
+File: geolocate.py
+
+Description: Uses the MaxMind GeoLite2 City database to
+             retrieve approximate geographic locations
+             for valid public IP addresses.
+
+Created by: Gavin Main
+
+Date Finalized: 10/23/26
+"""
+
 import geoip2.database
 import geoip2.errors
 import ipaddress
